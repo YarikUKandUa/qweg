@@ -74,12 +74,11 @@ mixer.music.play(-1)
 kick = mixer.Sound('kick.ogg')
 win = mixer.Sound('zombie-moaning-101369.mp3')
 
-
 window = display.set_mode((700, 500))
 clock = time.Clock()
 
 walls = []
-walls.append(Wall(0, 0, 10, 680, (102, 51, 0)))
+walls.append(Wall(0, 0, 10, 680, (105, 51, 0)))
 walls.append(Wall(790, 0, 10, 600, (102, 51, 0)))
 walls.append(Wall(690, 0, 10, 600, (102, 51, 0)))
 walls.append(Wall(0, 490, 780, 10, (102, 51, 0)))
